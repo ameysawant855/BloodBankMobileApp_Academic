@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="@string/my_home" />
+        <item
+            android:id="@+id/userprofile"
+            android:title="@string/my_profile" />
+
+        <item
+            android:id="@+id/blood_storage"
+            android:title="@string/fndBlood" />
+        <item
+            android:id="@+id/nearby_hospital"
+            android:title="@string/nearH" />
+        <item
+            android:id="@+id/logout"
+            android:title="@string/lgout" />
+    </group>
+
+</menu>

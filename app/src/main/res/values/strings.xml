@@ -1,0 +1,74 @@
+<resources>
+    <string name="application_name">Blood Helper</string>
+    <string name="activity_login">Sign in</string>
+    <string name="my_home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="reset">Reset</string>
+    <string name="signup">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="register">Create an account</string>
+    <string name="forgotpassword">Forgot password?</string>
+    <string name="promptpassword">Password</string>
+    <string name="confirmpassword">Confirm password</string>
+    <string name="signinshort">Sign in</string>
+    <string name="navigation_drawer_open">Navigation opened</string>
+    <string name="navigation_drawer_close">Navigation closed</string>
+    <string name="nav_header_title">Blood Helper App</string>
+    <string name="nav_header_subtitle">ameysawant855@gmail.com</string>
+    <string name="displayName">Full Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="userAddress">Address</string>
+    <string name="nearH">Find nearest hospitals</string>
+    <string name="fndBlood">Find Blood Donor</string>
+    <string name="lgout">Log out</string>
+
+
+    <string-array name="city_list">
+        <item>Indianapolis</item>
+        <item>Fort Wayne</item>
+        <item>Evansville</item>
+        <item>South Bend</item>
+        <item>Carmel</item>
+        <item>Fishers</item>
+        <item>Bloomington</item>
+        <item>Hammond</item>
+        <item>Gary</item>
+        <item>Lafayette</item>
+        <item>Muncie</item>
+        <item>Noblesville</item>
+        <item>Terre Haute</item>
+        <item>Kokomo</item>
+        <item>Greenwood</item>
+        <item>Anderson</item>
+        <item>Elkhart</item>
+        <item>Mishwaka</item>
+        <item>Lawrence</item>
+        <item>Jeffersonville</item>
+        <item>Columbus</item>
+        <item>West Lafayette</item>
+        <item>Westfield</item>
+        <item>Portage</item>
+        <item>New Albany</item>
+        <item>Richmond</item>
+        <item>Valparaiso</item>
+        <item>Goshen</item>
+        <item>Michigan City</item>
+        <item>Marion</item>
+    </string-array>
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="Blood_Group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </array>
+</resources>

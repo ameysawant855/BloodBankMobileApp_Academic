@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/button_background"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/blood_donate" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/prompt_email" />
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/promptpassword" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/signin_button"
+            android:text="@string/signinshort"
+            android:textAllCaps="false"
+            android:textColor="@color/place_autocomplete_prediction_primary_text"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_marginRight="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/browser_actions_bg_grey"
+            android:padding="2dp"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textColor="@color/place_autocomplete_prediction_primary_text" />
+
+        <Button
+            android:id="@+id/button_forgot_password"
+            android:layout_marginLeft="120dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/browser_actions_bg_grey"
+            android:padding="2dp"
+            android:text="@string/forgotpassword"
+            android:textAllCaps="false"
+            android:textColor="@color/place_autocomplete_prediction_primary_text" />
+
+    </LinearLayout>
+
+</ScrollView>
